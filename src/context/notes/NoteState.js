@@ -5,6 +5,8 @@ const NoteState = (props) => {
 
   const host = "http://localhost:5000";
 
+  const s = 3 / 0;
+
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
 
